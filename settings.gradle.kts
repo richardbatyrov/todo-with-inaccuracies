@@ -13,3 +13,9 @@ pluginManagement {
     }
 }
 rootProject.name = "todo-with-inaccuracies"
+
+include(":domain-task")
+include(":usecase")
+include(":controller")
+include(":h2-persistence")
+include(":neural-network")
